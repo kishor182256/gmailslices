@@ -1,0 +1,33 @@
+.emailrow{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid #e0e0e0;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.emailrow:hover{
+    border-top: 1px solid #e0e0e0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.emailrow_message{
+    display: flex;
+    flex:0.8;
+    
+   
+}
+
+.emailrow_options{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.emailrow_message_description{
+    font-weight: 400;
+    color: gray;
+}
